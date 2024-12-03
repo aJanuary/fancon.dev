@@ -9,9 +9,15 @@ export default {
   theme: {
     extend: {
       colors: {
-        background: "var(--background)",
-        foreground: "var(--foreground)",
+        "transparent": "transparent",
+        "white": "#ffffff",
+        "olive": "#001800",
+        "lemon": "#e4f93b",
+        "cyan": "#15f2c1"
       },
+      boxShadow: {
+        'button-glow': '20px 10px 80px #15f2c130, -20px -10px 80px #e4f93b30',
+      }
     },
   },
   plugins: [],
